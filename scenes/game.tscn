@@ -42,8 +42,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_dmbop"]
 _data = {
-"RESET": SubResource("Animation_8tlrw"),
-"move": SubResource("Animation_ogry4")
+&"RESET": SubResource("Animation_8tlrw"),
+&"move": SubResource("Animation_ogry4")
 }
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4nsru"]
@@ -243,7 +243,7 @@ position = Vector2(291, 75)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Playforms/Platform2"]
 libraries = {
-"": SubResource("AnimationLibrary_dmbop")
+&"": SubResource("AnimationLibrary_dmbop")
 }
 autoplay = "move"
 
